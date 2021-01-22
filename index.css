@@ -33,7 +33,7 @@ a:hover {
     margin-top: 0px;
     display: inline-block;
 }
-img {
+#profile-pic {
     height: 27em;
     border-radius: 50%;
     box-shadow: -0px 24px 24px slategray;
