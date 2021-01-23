@@ -33,7 +33,10 @@ a:hover {
 @media screen and (max-width: 500px) {
 /* Site Header Start */
 .site-header {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+.site-nav ul a li {
+    font-size: 18px;
 }
 /* Site Header End */
 /* Page Header Start */
