@@ -89,9 +89,15 @@ a:hover {
 }
 .about-me h1, h4 {
     margin-top: 44px;
+    font-size: 34px;    
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 2px 4px 4px slategray;
+    font-family: 'Bitter', sans-serif;
 }
 .about-me, p {
     margin-top: 75px;
+    font-size: 18px;
 }
 /* Page Header End */
 
@@ -116,4 +122,33 @@ a:hover {
 }
 /* Gallery Header End */
 }
+
+/* Contact Header Start */
+.contact-header h2 {
+    font-size: 38px;    
+    margin: 75px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 2px 4px 4px slategray;
+    text-decoration: underline;
+    font-family: 'Bitter', sans-serif;
+}
+.links {
+    margin: 75px;
+    margin-top: 25px;
+    text-align: center;
+}
+i.fab.fa-facebook {
+    font-size: 100px;
+}
+i.fab.fa-linkedin { 
+    font-size: 100px;
+    padding: 50px;
+}
+i.fab.fa-github {
+    font-size: 100px;
+}
+/* Contact Header End */
 /* Desktop End */
