@@ -66,19 +66,60 @@
 
 /* Contact Header Start */
 .contact-header h2 {
-    border: 1px solid black;
+    margin: 8%;
+    margin-top: 2%;
+    text-align: center;
+    text-shadow: 2px 4px 4px slategray;
+    text-decoration: underline;
+    font-family: "Bitter", sans-serif;
 }
 .links {
-    border: 1px solid black;
+    text-align: center;
+    text-shadow: 2px 4px 4px slategray;
 }
 i.fab.fa-facebook {
-    height: 50px;
+    color: #111111;
+    font-size: 4rem;
 }
+i.fab.fa-linkedin {
+    color: #111111;
+    font-size: 4rem;
+}
+i.fab.fa-github {
+    color: #111111;
+    font-size: 4rem;
 }
 /* Contact Header End */
 
 /* Contact Form Start */
+.contact-form {
+    margin: 4%;
+    margin-top: 7%;
+    text-align: center;
+}
+.contact-form h2 {
+    text-shadow: 2px 4px 4px slategray;
+    text-decoration: underline;
+    font-family: "Bitter", sans-serif;
+    font-size: 18px;
+}
+.contact-form input {
+    width: 25%;
+}
+.contact-form textarea {
+    width: 22rem;
+    margin: 0.5%;
+}
+#form-submit {
+    width: 10rem;
+    text-shadow: 2px 4px 4px slategray;
+    font-family: "Bitter", sans-serif;
+    background-color: #111111;
+    color: antiquewhite;
+    border-radius: 44px;
+}
 /* Contact Form End */
+}
 /* **** **** **** **** Mobile End **** **** **** **** */
 
 /* **** **** **** **** Desktop Start **** **** **** **** */
