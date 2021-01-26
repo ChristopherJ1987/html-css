@@ -1,0 +1,310 @@
+/* **** **** **** **** Mobile Start **** **** **** **** */
+@media screen and (max-width: 500px) {
+    /* Site Header Start */
+.site-header {
+    margin: 50px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+.site-nav ul a li {
+    font-size: 18px;
+    font-family: "Bitter", serif;
+    font-weight: bolder;
+    color: #111111;
+    list-style-type: none;
+    text-align: right;
+    margin: 10px;
+}
+.site-nav a {
+    text-decoration: none;
+}
+    /* Site Header End */
+
+    /* Page Header Start */
+.page-header {
+    margin: 5px;
+    margin-top: 0px;
+    display: flex;
+}
+#profile-pic {
+    height: 20em;
+    border-radius: 50%;
+    box-shadow: -0px 24px 24px slategray;
+}
+.about-me {
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.about-me, h1, h4 {
+    font-family: "Bitter", sans-serif;
+}
+    /* Page Header End */
+
+    /* Gallery Header Start */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-top: 75px;
+}
+.column {
+    flex: 25%;
+    max-width: 20%;
+    padding: 0 4px;
+}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: -0px 24px 24px slategray;
+}
+    /* Gallery Header End */
+
+    /* Contact Header Start */
+.contact-header h2 {
+    margin: 8%;
+    margin-top: 2%;
+    text-align: center;
+    text-shadow: 2px 4px 4px slategray;
+    text-decoration: underline;
+    font-family: "Bitter", sans-serif;
+}
+.links {
+    text-align: center;
+    text-shadow: 2px 4px 4px slategray;
+}
+i.fab.fa-facebook {
+    color: #111111;
+    font-size: 4rem;
+}
+i.fab.fa-linkedin {
+    color: #111111;
+    font-size: 4rem;
+}
+i.fab.fa-github {
+    color: #111111;
+    font-size: 4rem;
+}
+    /* Contact Header End */
+
+    /* Contact Form Start */
+.contact-form {
+    margin: 4%;
+    margin-top: 7%;
+    text-align: center;
+}
+.contact-form h2 {
+    text-shadow: 2px 4px 4px slategray;
+    text-decoration: underline;
+    font-family: "Bitter", sans-serif;
+    font-size: 18px;
+}
+.contact-form input {
+    width: 25%;
+}
+.contact-form textarea {
+    width: 22rem;
+    margin: 0.5%;
+}
+#form-submit {
+    width: 10rem;
+    text-shadow: 2px 4px 4px slategray;
+    font-family: "Bitter", sans-serif;
+    background-color: #111111;
+    color: antiquewhite;
+    border-radius: 44px;
+}
+    /* Contact Form End */
+}
+/* **** **** **** **** Mobile End **** **** **** **** */
+
+/* **** **** **** **** Tablet Start **** **** **** **** */
+@media screen and (min-width: 500px) and (max-width: 1200px){
+    /* Site Header Start */
+.site-header {
+    margin: 50px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+.site-nav ul {
+    text-align: center;
+    display: flex;
+}
+.site-nav ul li.nav-links {
+    justify-content: space-evenly;
+}
+    /* Site Header End */
+
+    /* Page Header Start */
+div.page-header {
+    display: flex;
+}
+img#profile-pic {
+    height: 24em;
+    border-radius: 50%;
+    box-shadow: -0px 24px 24px slategray;
+}
+.about-me {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.about-me, h1, h4 {
+    font-family: "Bitter", sans-serif;
+}
+    /* Page Header End */
+}
+/* **** **** **** **** Tablet End **** **** **** **** */
+
+/* **** **** **** **** Desktop Start **** **** **** **** */
+@media screen and (min-width: 500px) {
+    /* Site Header Start */
+.site-header {
+    margin: 75px;
+    margin-bottom: 0px;
+    border: 1px solid black;
+}
+ul {
+    text-align: right;
+}
+.nav-links {
+    list-style-type: none;
+    display: inline;
+    padding: 25px;
+    margin: 25px;
+    margin-right: 0px;
+    font-family: "Bitter", serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: #111111;
+}
+a:hover {
+    text-decoration: underline;
+    transition: 0.25s;
+    text-shadow: 2px 4px 4px teal;
+}
+    /* Site Header End */
+
+    /* Page Header Start */
+.page-header {
+    margin: 75px;
+    margin-top: 0px;
+    display: flex;
+}
+#profile-pic {
+    height: 27em;
+    border-radius: 50%;
+    box-shadow: -0px 24px 24px slategray;
+    margin: 25px;
+}
+.about-me {
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    margin: 75px;
+}
+.about-me {
+    font-family: "Bitter", sans-serif;
+}
+.about-me h1, h4 {
+    margin-top: 44px;
+    font-size: 34px;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 2px 4px 4px slategray;
+    font-family: "Bitter", sans-serif;
+}
+.about-me, p {
+    margin-top: 75px;
+    font-size: 18px;
+}
+    /* Page Header End */
+
+    /* Gallery Header Start */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 14%;
+    margin-top: 75px;
+}
+.column {
+    flex: 25%;
+    max-width: 20%;
+    padding: 0 4px;
+}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: -0px 24px 24px slategray;
+}
+    /* Gallery Header End */
+
+    /* Contact Header Start */
+.contact-header h2 {
+    font-size: 38px;
+    margin: 75px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 2px 4px 4px slategray;
+    text-decoration: underline;
+    font-family: "Bitter", sans-serif;
+}
+.links {
+    margin: 75px;
+    margin-top: 25px;
+    text-align: center;
+}
+i.fab.fa-facebook {
+    font-size: 100px;
+}
+i.fab.fa-linkedin {
+    font-size: 100px;
+    padding: 50px;
+}
+i.fab.fa-github {
+    font-size: 100px;
+}
+    /* Contact Header End */
+
+    /* Contact Form Start */
+.contact-form {
+    margin: 75px;
+    text-align: center;
+}
+.contact-form h2 {
+    margin: 75px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 2px 4px 4px slategray;
+    text-decoration: underline;
+    font-family: "Bitter", sans-serif;
+}
+.contact-form textarea {
+    margin-left: 44px;
+}
+#form-submit {
+    width: 14rem;
+    margin-left: 25px;
+    text-shadow: 2px 4px 4px slategray;
+    font-family: "Bitter", sans-serif;
+    background-color: #111111;
+    color: antiquewhite;
+    border-radius: 44px;
+}
+    /* Contact Form End */
+}
+/* **** **** **** **** Desktop End **** **** **** **** */
