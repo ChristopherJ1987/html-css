@@ -1,6 +1,6 @@
 /* **** **** **** **** Mobile Start **** **** **** **** */
 @media screen and (max-width: 500px) {
-  /* Site Header Start */
+    /* Site Header Start */
 .site-header {
     margin: 50px;
     margin-top: 25px;
@@ -19,9 +19,9 @@
 .site-nav a {
     text-decoration: none;
 }
-  /* Site Header End */
+    /* Site Header End */
 
-  /* Page Header Start */
+    /* Page Header Start */
 .page-header {
     margin: 5px;
     margin-top: 0px;
@@ -41,9 +41,9 @@
 .about-me, h1, h4 {
     font-family: "Bitter", sans-serif;
 }
-/* Page Header End */
+    /* Page Header End */
 
-/* Gallery Header Start */
+    /* Gallery Header Start */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -62,9 +62,9 @@
     border-radius: 50%;
     box-shadow: -0px 24px 24px slategray;
 }
-/* Gallery Header End */
+    /* Gallery Header End */
 
-/* Contact Header Start */
+    /* Contact Header Start */
 .contact-header h2 {
     margin: 8%;
     margin-top: 2%;
@@ -89,9 +89,9 @@ i.fab.fa-github {
     color: #111111;
     font-size: 4rem;
 }
-/* Contact Header End */
+    /* Contact Header End */
 
-/* Contact Form Start */
+    /* Contact Form Start */
 .contact-form {
     margin: 4%;
     margin-top: 7%;
@@ -118,13 +118,52 @@ i.fab.fa-github {
     color: antiquewhite;
     border-radius: 44px;
 }
-/* Contact Form End */
+    /* Contact Form End */
 }
 /* **** **** **** **** Mobile End **** **** **** **** */
 
+/* **** **** **** **** Tablet Start **** **** **** **** */
+@media screen and (min-width: 500px) and (max-width: 1200px){
+    /* Site Header Start */
+.site-header {
+    margin: 50px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+.site-nav ul {
+    text-align: center;
+    display: flex;
+}
+.site-nav ul li.nav-links {
+    justify-content: space-evenly;
+}
+    /* Site Header End */
+
+    /* Page Header Start */
+div.page-header {
+    display: flex;
+}
+img#profile-pic {
+    height: 24em;
+    border-radius: 50%;
+    box-shadow: -0px 24px 24px slategray;
+}
+.about-me {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.about-me, h1, h4 {
+    font-family: "Bitter", sans-serif;
+}
+    /* Page Header End */
+}
+/* **** **** **** **** Tablet End **** **** **** **** */
+
 /* **** **** **** **** Desktop Start **** **** **** **** */
 @media screen and (min-width: 500px) {
-  /* Site Header Start */
+    /* Site Header Start */
 .site-header {
     margin: 75px;
     margin-bottom: 0px;
@@ -152,9 +191,9 @@ a:hover {
     transition: 0.25s;
     text-shadow: 2px 4px 4px teal;
 }
-  /* Site Header End */
+    /* Site Header End */
 
-  /* Page Header Start */
+    /* Page Header Start */
 .page-header {
     margin: 75px;
     margin-top: 0px;
@@ -187,9 +226,9 @@ a:hover {
     margin-top: 75px;
     font-size: 18px;
 }
-  /* Page Header End */
+    /* Page Header End */
 
-  /* Gallery Header Start */
+    /* Gallery Header Start */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -208,9 +247,9 @@ a:hover {
     border-radius: 50%;
     box-shadow: -0px 24px 24px slategray;
 }
-/* Gallery Header End */
+    /* Gallery Header End */
 
-/* Contact Header Start */
+    /* Contact Header Start */
 .contact-header h2 {
     font-size: 38px;
     margin: 75px;
@@ -237,9 +276,9 @@ i.fab.fa-linkedin {
 i.fab.fa-github {
     font-size: 100px;
 }
-/* Contact Header End */
+    /* Contact Header End */
 
-/* Contact Form Start */
+    /* Contact Form Start */
 .contact-form {
     margin: 75px;
     text-align: center;
@@ -266,6 +305,6 @@ i.fab.fa-github {
     color: antiquewhite;
     border-radius: 44px;
 }
-/* Contact Form End */
+    /* Contact Form End */
 }
 /* **** **** **** **** Desktop End **** **** **** **** */
